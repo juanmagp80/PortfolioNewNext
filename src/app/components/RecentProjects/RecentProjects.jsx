@@ -12,7 +12,7 @@ const skills = [
 
 const SkillsCard = () => {
     return (
-        <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-4 mx-auto mt-8">
+        <div className="bg-white dark:bg-gray-800 shadow-lg rounded-lg p-4 max-w-80 mt-8">
             <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">Habilidades</h2>
             <ul className="list-disc list-inside text-gray-700 dark:text-gray-300">
                 {skills.map((skill, index) => (
